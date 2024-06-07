@@ -53,3 +53,17 @@
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+::-webkit-scrollbar{
+  background-color: gray;
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #045243;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: black;
+}
